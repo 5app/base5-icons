@@ -1,0 +1,19 @@
+{
+  "name": "5base-icons",
+  "version": "1.0.0",
+  "description": "Repository for 5app's React icons",
+  "main": "index.js",
+  "scripts": {
+    "build": "svgr --template 'src/template.js' --icon --replace-attr-value '#000=currentColor' --ext 'jsx' --use-tabs --tab-width 4 -d icons icons-src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "icons",
+    "5app"
+  ],
+  "author": "Dionysos Dajka",
+  "license": "MIT",
+  "dependencies": {
+    "svgr": "^1.9.1"
+  }
+}
