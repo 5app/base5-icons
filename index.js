@@ -1,58 +1,120 @@
-export * from './icons/Android';
-export * from './icons/Apple';
-export * from './icons/Appstore';
-export * from './icons/Arrow';
-export * from './icons/Asset';
-export * from './icons/AssetAudio';
-export * from './icons/AssetDefault';
-export * from './icons/AssetDiagram';
-export * from './icons/AssetEbook';
-export * from './icons/AssetFolder';
-export * from './icons/AssetImage';
-export * from './icons/AssetPdf';
-export * from './icons/AssetPresentation';
-export * from './icons/AssetSpreadsheet';
-export * from './icons/AssetText';
-export * from './icons/AssetVideo';
-export * from './icons/Box';
-export * from './icons/Chat';
-export * from './icons/Chevron';
-export * from './icons/Collection';
-export * from './icons/Download';
-export * from './icons/Dropbox';
-export * from './icons/Edit';
-export * from './icons/Ellipsis';
-export * from './icons/External';
-export * from './icons/EyeClosed';
-export * from './icons/EyeOpen';
-export * from './icons/Favourite';
-export * from './icons/Flag';
-export * from './icons/Fullscreen';
-export * from './icons/Hierarchy';
-export * from './icons/Home';
-export * from './icons/Info';
-export * from './icons/Link';
-export * from './icons/Logout';
-export * from './icons/NavLeft';
-export * from './icons/NavRight';
-export * from './icons/Ok';
-export * from './icons/Pause';
-export * from './icons/Pin';
-export * from './icons/Play';
-export * from './icons/Playlist';
-export * from './icons/Plus';
-export * from './icons/Search';
-export * from './icons/Send';
-export * from './icons/Settings';
-export * from './icons/Share';
-export * from './icons/Spinnerdot';
-export * from './icons/Star';
-export * from './icons/Tag';
-export * from './icons/Team';
-export * from './icons/Tools';
-export * from './icons/Trending';
-export * from './icons/Undo';
-export * from './icons/Unpin';
-export * from './icons/Upload';
-export * from './icons/User';
-export * from './icons/X';
+const Android = require('./icons/Android');
+const Apple = require('./icons/Apple');
+const Appstore = require('./icons/Appstore');
+const Arrow = require('./icons/Arrow');
+const Asset = require('./icons/Asset');
+const AssetAudio = require('./icons/AssetAudio');
+const AssetDefault = require('./icons/AssetDefault');
+const AssetDiagram = require('./icons/AssetDiagram');
+const AssetEbook = require('./icons/AssetEbook');
+const AssetFolder = require('./icons/AssetFolder');
+const AssetImage = require('./icons/AssetImage');
+const AssetPdf = require('./icons/AssetPdf');
+const AssetPresentation = require('./icons/AssetPresentation');
+const AssetSpreadsheet = require('./icons/AssetSpreadsheet');
+const AssetText = require('./icons/AssetText');
+const AssetVideo = require('./icons/AssetVideo');
+const Box = require('./icons/Box');
+const Chat = require('./icons/Chat');
+const Chevron = require('./icons/Chevron');
+const Collection = require('./icons/Collection');
+const Download = require('./icons/Download');
+const Dropbox = require('./icons/Dropbox');
+const Edit = require('./icons/Edit');
+const Ellipsis = require('./icons/Ellipsis');
+const External = require('./icons/External');
+const EyeClosed = require('./icons/EyeClosed');
+const EyeOpen = require('./icons/EyeOpen');
+const Favourite = require('./icons/Favourite');
+const Flag = require('./icons/Flag');
+const Fullscreen = require('./icons/Fullscreen');
+const Hierarchy = require('./icons/Hierarchy');
+const Home = require('./icons/Home');
+const Info = require('./icons/Info');
+const Link = require('./icons/Link');
+const Logout = require('./icons/Logout');
+const NavLeft = require('./icons/NavLeft');
+const NavRight = require('./icons/NavRight');
+const Ok = require('./icons/Ok');
+const Pause = require('./icons/Pause');
+const Pin = require('./icons/Pin');
+const Play = require('./icons/Play');
+const Playlist = require('./icons/Playlist');
+const Plus = require('./icons/Plus');
+const Search = require('./icons/Search');
+const Send = require('./icons/Send');
+const Settings = require('./icons/Settings');
+const Share = require('./icons/Share');
+const Spinnerdot = require('./icons/Spinnerdot');
+const Star = require('./icons/Star');
+const Tag = require('./icons/Tag');
+const Team = require('./icons/Team');
+const Tools = require('./icons/Tools');
+const Trending = require('./icons/Trending');
+const Undo = require('./icons/Undo');
+const Unpin = require('./icons/Unpin');
+const Upload = require('./icons/Upload');
+const User = require('./icons/User');
+const X = require('./icons/X');
+
+
+module.exports = {
+	Android,
+	Apple,
+	Appstore,
+	Arrow,
+	Asset,
+	AssetAudio,
+	AssetDefault,
+	AssetDiagram,
+	AssetEbook,
+	AssetFolder,
+	AssetImage,
+	AssetPdf,
+	AssetPresentation,
+	AssetSpreadsheet,
+	AssetText,
+	AssetVideo,
+	Box,
+	Chat,
+	Chevron,
+	Collection,
+	Download,
+	Dropbox,
+	Edit,
+	Ellipsis,
+	External,
+	EyeClosed,
+	EyeOpen,
+	Favourite,
+	Flag,
+	Fullscreen,
+	Hierarchy,
+	Home,
+	Info,
+	Link,
+	Logout,
+	NavLeft,
+	NavRight,
+	Ok,
+	Pause,
+	Pin,
+	Play,
+	Playlist,
+	Plus,
+	Search,
+	Send,
+	Settings,
+	Share,
+	Spinnerdot,
+	Star,
+	Tag,
+	Team,
+	Tools,
+	Trending,
+	Undo,
+	Unpin,
+	Upload,
+	User,
+	X
+};
