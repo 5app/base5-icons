@@ -2,7 +2,7 @@
   "name": "base5-icons",
   "version": "0.0.5",
   "description": "Repository for 5app's React icons",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "scripts": {
     "babel": "babel src/jsx -d dist",
     "build": "svgr --icon --replace-attr-value '#000=currentColor' --ext 'jsx' --use-tabs --tab-width 4 -d src/jsx src/svg",
