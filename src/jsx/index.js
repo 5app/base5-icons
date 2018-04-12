@@ -9,6 +9,7 @@ export {default as AssetDiagram} from './AssetDiagram';
 export {default as AssetEbook} from './AssetEbook';
 export {default as AssetFolder} from './AssetFolder';
 export {default as AssetImage} from './AssetImage';
+export {default as AssetLink} from './AssetLink';
 export {default as AssetPdf} from './AssetPdf';
 export {default as AssetPresentation} from './AssetPresentation';
 export {default as AssetSpreadsheet} from './AssetSpreadsheet';
