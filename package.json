@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "babel": "babel src/jsx -d dist",
-    "build": "svgr --icon --replace-attr-value '#000=currentColor' --ext 'jsx' --use-tabs --tab-width 4 -d src/jsx src/svg",
+    "build": "svgr --icon --single-quote --replace-attr-value '#000=currentColor' --ext 'jsx' --use-tabs --tab-width 4 -d src/jsx src/svg",
     "postbuild": "npm run babel",
+    "lint": "eslint --ext .jsx,.js ./src",
+    "lint-fix": "eslint --ext .jsx,.js --fix ./src",
     "copypackage": "cp -rf package.json dist",
     "predist": "npm run copypackage",
     "dist": "cd dist && npm publish"
@@ -25,9 +27,13 @@
     "react": "^16.3.1"
   },
   "devDependencies": {
-    "svgr": "^1.9.1",
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-5app": "^0.1.0",
+    "eslint-plugin-react": "^7.7.0",
+    "svgr": "^1.9.1"
   }
 }
