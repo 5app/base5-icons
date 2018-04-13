@@ -1,0 +1,26 @@
+{
+	"root": true,
+	"extends": ["5app", "plugin:react/recommended"],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"allowImportExportEverywhere": true,
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		},
+		"sourceType": "module"
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"arrow-parens": [0, "as-needed"],
+		"prefer-template": 0,
+		"quote-props": [0, "as-needed"],
+
+		"jsx-quotes": [2, "prefer-double"],
+		"react/jsx-indent": [2, "tab"],
+		"react/jsx-no-bind": [2, {"ignoreRefs": true}],
+		"react/prop-types": 0
+	}
+}
