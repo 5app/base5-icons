@@ -50,6 +50,7 @@ export {default as Spinnerdot} from './Spinnerdot';
 export {default as Star} from './Star';
 export {default as Tag} from './Tag';
 export {default as Team} from './Team';
+export {default as Time} from './Time';
 export {default as Tools} from './Tools';
 export {default as Trending} from './Trending';
 export {default as Undo} from './Undo';

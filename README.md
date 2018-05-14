@@ -32,4 +32,4 @@ Once that's done, run `npm run build` to convert the SVGs to standalone React co
 
 ## Updating the repo
 
-`npm run dist` will publish the `dist` folder to NPM.
+`npm run dist` will publish the `dist` folder to NPM. Remember to bump the version number in [package.json](package.json) if you do this.

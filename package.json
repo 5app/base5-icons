@@ -1,6 +1,6 @@
 {
   "name": "base5-icons",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Repository for 5app's React icons",
   "main": "index.js",
   "scripts": {
