@@ -21,7 +21,7 @@
   ],
   "author": "Dionysos Dajka",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.3.1"
   },
   "devDependencies": {
