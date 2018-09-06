@@ -23,7 +23,6 @@ const Svg = styled.svg.attrs({
 		margin-right: ${p.spacingRight};
 	`}
 
-	fill: currentColor;
 	font-size: ${p => p.scale !== 0 ? pxToEm(iconSize * p.scale) : pxToRem(iconSize)};
 
 	${p => p.vAlign && css`
