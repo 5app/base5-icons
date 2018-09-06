@@ -28,8 +28,8 @@ class Message extends React.Component {
 1. Add new SVG icons to [src/svg](/src/svg)
 2. Add any new icons as an export inside of [src/jsx/index.js](src/jsx/index.js)
 
-Once that's done, run `npm run build` to convert the SVGs to standalone React components inside of [src/jsx](/src/jsx). In the same step, they will then be compiled to standard ES5 JS modules in a new `dist` folder (not on git).
+Once that's done, run `npm run build` to convert the SVGs to standalone React components inside of [src/jsx](/src/jsx). In the same step, they will then be compiled to a new `dist` folder as standard ES5 JS modules.
 
 ## Updating the repo
 
-`npm run dist` will publish the `dist` folder to NPM. Remember to bump the version number in [package.json](package.json) if you do this.
+`npm run dist` will publish the `dist` folder to NPM. Remember to bump the version number using `npm version [patch|minor|major]` before doing this.
