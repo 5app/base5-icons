@@ -5,14 +5,6 @@ import {pxToRem, pxToEm} from 'base5-ui/utils/units';
 
 const iconSize = 18;
 
-const sizeMap = {
-	unscaled: pxToRem(iconSize),
-	default: pxToEm(iconSize),
-	medium: pxToEm(iconSize * 1.5),
-	big: pxToEm(iconSize * 3),
-	huge: pxToEm(iconSize * 6),
-};
-
 const Svg = styled.svg.attrs({
 	role: 'presentation',
 })`
@@ -32,7 +24,7 @@ const Svg = styled.svg.attrs({
 	`}
 
 	fill: currentColor;
-	font-size: ${p => sizeMap[p.size || 'default']};
+	font-size: ${p => p.scale !== 0 ? pxToEm(iconSize * p.scale) : pxToRem(iconSize)};
 
 	${p => p.vAlign && css`
 		/* Use to align icons with surrounding body text */
@@ -41,8 +33,12 @@ const Svg = styled.svg.attrs({
 	`}
 `;
 
+Svg.defaultProps = {
+	scale: 1,
+};
+
 Svg.propTypes = {
-	size: PropTypes.string,
+	scale: PropTypes.number,
 	vAlign: PropTypes.bool,
 	spacingLeft: PropTypes.string,
 	spacingRight: PropTypes.string,
