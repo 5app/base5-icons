@@ -23,6 +23,26 @@ class Message extends React.Component {
 }
 ```
 
+## Props
+
+### `scale`
+
+Number. By default, icons are sized at `1em`, scaling along with their surrounding text. The `scale` prop lets you define a scaling factor to size the icon, i.e. a value of `2` will make the icon twice as large.
+
+### `color`
+
+String. By default, icons use the colour of their containing element (`currentcolor`). You can change this to any valid color value here.
+
+### `vAlign`
+
+Boolean. When placed next to or inside of text, square icons tend to sit a bit too low compared to the text's baseline. Use the `vAlign` flag to nudge the icon up by a few pixels to visually align it with its surrounding text.
+
+Example: `<Star vAlign /> Favourite`
+
+### `spacingLeft` & `spacingRight`
+
+String. Add some left or right margin to the icon. Accepts any valid CSS length value, a unit must be included.
+
 ## Adding new icons
 
 1. Add new SVG icons to [src/svg](/src/svg)
