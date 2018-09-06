@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import styled, {css} from 'styled-components';
 
-import {getSpacing} from 'base5-ui/utils/spacing';
 import {pxToRem, pxToEm} from 'base5-ui/utils/units';
 
 const iconSize = 18;
@@ -26,10 +25,10 @@ const Svg = styled.svg.attrs({
 	height: 1em;
 
 	${p => p.spacingLeft && css`
-		margin-left: ${getSpacing(p.spacingLeft)};
+		margin-left: ${p.spacingLeft};
 	`}
 	${p => p.spacingRight && css`
-		margin-right: ${getSpacing(p.spacingRight)};
+		margin-right: ${p.spacingRight};
 	`}
 
 	fill: currentColor;
