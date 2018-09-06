@@ -25,4 +25,4 @@ ChevronIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Chevron;
+export default ChevronIcon;

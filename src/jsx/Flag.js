@@ -25,4 +25,4 @@ FlagIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Flag;
+export default FlagIcon;

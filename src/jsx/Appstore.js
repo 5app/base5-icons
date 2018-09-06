@@ -25,4 +25,4 @@ AppstoreIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Appstore;
+export default AppstoreIcon;

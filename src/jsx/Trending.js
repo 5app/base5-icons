@@ -25,4 +25,4 @@ TrendingIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Trending;
+export default TrendingIcon;

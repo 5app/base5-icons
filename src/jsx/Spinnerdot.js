@@ -25,4 +25,4 @@ SpinnerdotIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Spinnerdot;
+export default SpinnerdotIcon;

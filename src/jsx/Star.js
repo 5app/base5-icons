@@ -25,4 +25,4 @@ StarIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Star;
+export default StarIcon;

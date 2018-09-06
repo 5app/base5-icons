@@ -25,4 +25,4 @@ HomeIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Home;
+export default HomeIcon;

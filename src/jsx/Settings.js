@@ -25,4 +25,4 @@ SettingsIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Settings;
+export default SettingsIcon;

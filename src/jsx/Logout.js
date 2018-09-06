@@ -25,4 +25,4 @@ LogoutIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Logout;
+export default LogoutIcon;

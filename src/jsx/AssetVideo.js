@@ -25,4 +25,4 @@ AssetVideoIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetVideo;
+export default AssetVideoIcon;

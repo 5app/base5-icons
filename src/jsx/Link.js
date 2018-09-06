@@ -25,4 +25,4 @@ LinkIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Link;
+export default LinkIcon;

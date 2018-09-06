@@ -25,4 +25,4 @@ FullscreenIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Fullscreen;
+export default FullscreenIcon;

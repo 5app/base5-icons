@@ -25,4 +25,4 @@ UploadIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Upload;
+export default UploadIcon;

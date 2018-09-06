@@ -25,4 +25,4 @@ AssetAudioIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetAudio;
+export default AssetAudioIcon;

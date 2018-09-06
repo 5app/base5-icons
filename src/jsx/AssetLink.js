@@ -25,4 +25,4 @@ AssetLinkIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetLink;
+export default AssetLinkIcon;

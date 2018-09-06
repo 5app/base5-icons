@@ -25,4 +25,4 @@ EyeOpenIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default EyeOpen;
+export default EyeOpenIcon;

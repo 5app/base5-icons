@@ -25,4 +25,4 @@ AssetDiagramIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetDiagram;
+export default AssetDiagramIcon;

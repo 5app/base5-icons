@@ -25,4 +25,4 @@ XIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default X;
+export default XIcon;

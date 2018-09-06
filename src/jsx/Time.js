@@ -25,4 +25,4 @@ TimeIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Time;
+export default TimeIcon;

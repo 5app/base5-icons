@@ -25,4 +25,4 @@ EllipsisIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Ellipsis;
+export default EllipsisIcon;

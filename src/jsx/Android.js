@@ -25,4 +25,4 @@ AndroidIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Android;
+export default AndroidIcon;

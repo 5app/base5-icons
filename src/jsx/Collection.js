@@ -25,4 +25,4 @@ CollectionIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Collection;
+export default CollectionIcon;

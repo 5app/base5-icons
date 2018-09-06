@@ -25,4 +25,4 @@ ToolsIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Tools;
+export default ToolsIcon;

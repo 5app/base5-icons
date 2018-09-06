@@ -25,4 +25,4 @@ DropboxIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Dropbox;
+export default DropboxIcon;

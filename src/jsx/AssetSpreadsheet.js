@@ -25,4 +25,4 @@ AssetSpreadsheetIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetSpreadsheet;
+export default AssetSpreadsheetIcon;

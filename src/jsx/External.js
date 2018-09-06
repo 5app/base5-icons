@@ -25,4 +25,4 @@ ExternalIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default External;
+export default ExternalIcon;

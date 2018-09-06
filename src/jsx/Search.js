@@ -25,4 +25,4 @@ SearchIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Search;
+export default SearchIcon;

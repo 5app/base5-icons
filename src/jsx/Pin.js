@@ -25,4 +25,4 @@ PinIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Pin;
+export default PinIcon;

@@ -25,4 +25,4 @@ BoxIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Box;
+export default BoxIcon;

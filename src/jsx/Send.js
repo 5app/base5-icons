@@ -25,4 +25,4 @@ SendIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Send;
+export default SendIcon;

@@ -25,4 +25,4 @@ AppleIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Apple;
+export default AppleIcon;

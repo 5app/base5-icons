@@ -25,4 +25,4 @@ PauseIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Pause;
+export default PauseIcon;

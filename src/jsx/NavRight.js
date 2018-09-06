@@ -25,4 +25,4 @@ NavRightIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default NavRight;
+export default NavRightIcon;

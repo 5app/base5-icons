@@ -25,4 +25,4 @@ ShareIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Share;
+export default ShareIcon;

@@ -25,4 +25,4 @@ AssetFolderIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetFolder;
+export default AssetFolderIcon;

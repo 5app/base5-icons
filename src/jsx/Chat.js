@@ -25,4 +25,4 @@ ChatIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Chat;
+export default ChatIcon;

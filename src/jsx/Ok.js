@@ -25,4 +25,4 @@ OkIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Ok;
+export default OkIcon;

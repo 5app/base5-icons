@@ -25,4 +25,4 @@ AssetEbookIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetEbook;
+export default AssetEbookIcon;

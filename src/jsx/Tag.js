@@ -25,4 +25,4 @@ TagIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Tag;
+export default TagIcon;

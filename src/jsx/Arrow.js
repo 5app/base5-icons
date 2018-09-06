@@ -25,4 +25,4 @@ ArrowIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Arrow;
+export default ArrowIcon;

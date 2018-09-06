@@ -25,4 +25,4 @@ AssetPdfIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetPdf;
+export default AssetPdfIcon;

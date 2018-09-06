@@ -25,4 +25,4 @@ HierarchyIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Hierarchy;
+export default HierarchyIcon;

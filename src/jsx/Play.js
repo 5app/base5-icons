@@ -25,4 +25,4 @@ PlayIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Play;
+export default PlayIcon;

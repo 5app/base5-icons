@@ -25,4 +25,4 @@ PlaylistIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Playlist;
+export default PlaylistIcon;

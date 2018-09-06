@@ -25,4 +25,4 @@ UserIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default User;
+export default UserIcon;

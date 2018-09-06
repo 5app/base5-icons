@@ -25,4 +25,4 @@ DownloadIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Download;
+export default DownloadIcon;

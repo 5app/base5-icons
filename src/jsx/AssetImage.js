@@ -25,4 +25,4 @@ AssetImageIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default AssetImage;
+export default AssetImageIcon;

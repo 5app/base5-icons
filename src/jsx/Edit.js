@@ -25,4 +25,4 @@ EditIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Edit;
+export default EditIcon;

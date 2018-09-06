@@ -25,4 +25,4 @@ TeamIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Team;
+export default TeamIcon;

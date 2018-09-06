@@ -25,4 +25,4 @@ UnpinIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Unpin;
+export default UnpinIcon;

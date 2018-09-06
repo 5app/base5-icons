@@ -25,4 +25,4 @@ UndoIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Undo;
+export default UndoIcon;

@@ -25,4 +25,4 @@ InfoIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Info;
+export default InfoIcon;

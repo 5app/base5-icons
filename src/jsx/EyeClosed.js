@@ -25,4 +25,4 @@ EyeClosedIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default EyeClosed;
+export default EyeClosedIcon;

@@ -25,4 +25,4 @@ PlusIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Plus;
+export default PlusIcon;

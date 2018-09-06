@@ -25,4 +25,4 @@ FavouriteIcon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default Favourite;
+export default FavouriteIcon;
