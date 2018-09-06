@@ -29,5 +29,5 @@ ${name}Icon.defaultProps = {
   color: 'currentcolor'
 };
 
-export default ${name};
+export default ${name}Icon;
 `
