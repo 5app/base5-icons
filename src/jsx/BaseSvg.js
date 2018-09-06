@@ -14,7 +14,7 @@ const sizeMap = {
 	huge: pxToEm(iconSize * 6),
 };
 
-const Svg = styled.span.attrs({
+const Svg = styled.svg.attrs({
 	role: 'presentation',
 })`
 	display: inline-block;
