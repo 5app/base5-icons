@@ -2,7 +2,7 @@ export {default as Android} from './Android';
 export {default as Apple} from './Apple';
 export {default as Appstore} from './Appstore';
 export {default as Arrow} from './Arrow';
-export {default as Asset} from './Asset';
+export {default as Asset} from './AssetDefault';
 export {default as AssetAudio} from './AssetAudio';
 export {default as AssetDefault} from './AssetDefault';
 export {default as AssetDiagram} from './AssetDiagram';
