@@ -17,8 +17,8 @@ const ${name}Icon = ({
 		width={size}
 		height={size}
 		fill={color}
-		fill-rule="evenodd"
-		clip-rule="evenodd"
+		fillRule="evenodd"
+		clipRule="evenodd"
 	>
 		<path d='${pathData}' />
 	</Svg>
