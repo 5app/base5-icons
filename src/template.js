@@ -7,26 +7,28 @@ module.exports = ({
 import Svg from './BaseSvg';
 
 const ${name}Icon = ({
-  size,
-  color,
-  ...props
+	size,
+	color,
+	...props
 }) => (
-  <Svg
-    {...props}
-    viewBox='${viewBox}'
-    width={size}
-    height={size}
-    fill={color}
-  >
-    <path d='${pathData}' />
-  </Svg>
+	<Svg
+		{...props}
+		viewBox='${viewBox}'
+		width={size}
+		height={size}
+		fill={color}
+		fill-rule="evenodd"
+		clip-rule="evenodd"
+	>
+		<path d='${pathData}' />
+	</Svg>
 );
 
 ${name}Icon.displayName = '${name}Icon';
 
 ${name}Icon.defaultProps = {
-  size: 18,
-  color: 'currentcolor'
+	size: 18,
+	color: 'currentcolor'
 };
 
 export default ${name}Icon;
