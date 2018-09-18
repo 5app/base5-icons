@@ -1,10 +1,10 @@
 # base5 icons
 
-5app's SVG icons as React components.
+5app's SVG icons as React components, powered by styled-components.
 
 ## Installation
 
-`npm i --save base5-icons`
+`npm i --save base5-icons styled-components`
 
 ## Usage
 
