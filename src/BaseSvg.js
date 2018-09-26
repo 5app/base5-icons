@@ -39,8 +39,14 @@ Svg.defaultProps = {
 Svg.propTypes = {
 	scale: PropTypes.number,
 	vAlign: PropTypes.bool,
-	spacingLeft: PropTypes.string,
-	spacingRight: PropTypes.string,
+	spacingLeft: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.func,
+	]),
+	spacingRight: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.func,
+	]),
 };
 
 export default Svg;
