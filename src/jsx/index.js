@@ -36,6 +36,7 @@ export {default as Link} from './Link';
 export {default as Logout} from './Logout';
 export {default as NavLeft} from './NavLeft';
 export {default as NavRight} from './NavRight';
+export {default as Offline} from './Offline';
 export {default as Ok} from './Ok';
 export {default as Pause} from './Pause';
 export {default as Pin} from './Pin';
