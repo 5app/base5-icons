@@ -1,3 +1,5 @@
 dist
+src/jsx/*
+!src/jsx/index.js
 node_modules
 .DS_Store
