@@ -19,6 +19,7 @@ export {default as Box} from './Box';
 export {default as Chat} from './Chat';
 export {default as Chevron} from './Chevron';
 export {default as Collection} from './Collection';
+export {default as Disk} from './Disk';
 export {default as Download} from './Download';
 export {default as Dropbox} from './Dropbox';
 export {default as Edit} from './Edit';
