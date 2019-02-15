@@ -10,7 +10,7 @@
 
 ```
 import React from 'react';
-import Star from 'base5-icons/star';
+import Star from 'base5-icons/Star';
 
 class Message extends React.Component {
   render() {
@@ -46,10 +46,12 @@ String. Add some left or right margin to the icon. Accepts any valid CSS length 
 ## Adding new icons
 
 1. Add new SVG icons to [src/svg](/src/svg)
-2. Add any new icons as an export inside of [src/jsx/index.js](src/jsx/index.js)
+2. Add any new icons as an export inside of [src/js/index.js](src/js/index.js)
+3. Define a `string` name for any new icons in the icon map in [src/js/iconMap.js](src/js/iconMap.js)
 
-Once that's done, run `npm run build` to convert the SVGs to standalone React components inside of [src/jsx](/src/jsx). In the same step, they will then be compiled to a new `dist` folder as standard ES5 JS modules.
+Once that's done, run `npm run build` to convert the SVGs to standalone React components inside of [src/js](/src/js). In the same step, they will then be compiled to a new `dist` folder as standard ES5 JS modules.
 
 ## Updating the repo
 
-`npm run dist` will publish the `dist` folder to NPM. Remember to bump the version number using `npm version [patch|minor|major]` before doing this.
+1. Bump the version number using `npm version [patch|minor|major]`
+2. Run `npm run dist` to publish the `dist` folder to NPM

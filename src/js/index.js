@@ -1,3 +1,5 @@
+export {default as iconMap} from './iconMap'
+
 export {default as Android} from './Android'
 export {default as Apple} from './Apple'
 export {default as Appstore} from './Appstore'

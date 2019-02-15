@@ -1,43 +1,43 @@
 {
-  "name": "base5-icons",
-  "version": "2.3.1",
-  "description": "Repository for 5app's React icons",
-  "main": "index.js",
-  "scripts": {
-    "prebabel": "cp -rf src/BaseSvg.js src/jsx",
-    "babel": "babel src/jsx -d dist",
-    "build": "pixo src/svg --out-dir src/jsx --template src/template.js",
-    "postbuild": "npm run babel",
-    "copypackage": "cp -rf package.json dist",
-    "predist": "npm run copypackage",
-    "dist": "cd dist && npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/5app/base5-icons.git"
-  },
-  "keywords": [
-    "icons",
-    "5app"
-  ],
-  "author": "Dionysos Dajka",
-  "license": "MIT",
-  "dependencies": {
-    "base5-ui": "^1.0.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
-  },
-  "peerDependencies": {
-    "styled-components": "^4.0.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-transform-react-jsx": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "babel-plugin-styled-components": "^1.8.0",
-    "pixo": "^1.1.0",
-    "prop-types": "^15.6.2",
-    "styled-components": "^4.0.0"
-  }
+	"name": "base5-icons",
+	"version": "2.3.1",
+	"description": "Repository for 5app's React icons",
+	"main": "index.js",
+	"scripts": {
+		"prebabel": "cp -rf src/BaseSvg.js src/js",
+		"babel": "babel src/js -d dist",
+		"build": "pixo src/svg --out-dir src/js --template src/template.js",
+		"postbuild": "npm run babel",
+		"copypackage": "cp -rf package.json dist",
+		"predist": "npm run copypackage",
+		"dist": "cd dist && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/5app/base5-icons.git"
+	},
+	"keywords": [
+		"icons",
+		"5app"
+	],
+	"author": "Dionysos Dajka",
+	"license": "MIT",
+	"dependencies": {
+		"base5-ui": "^1.0.0",
+		"react": "^16.4.2",
+		"react-dom": "^16.4.2"
+	},
+	"peerDependencies": {
+		"styled-components": "^4.0.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.0.0",
+		"@babel/core": "^7.0.0",
+		"@babel/plugin-transform-react-jsx": "^7.0.0",
+		"@babel/preset-env": "^7.0.0",
+		"babel-plugin-styled-components": "^1.8.0",
+		"pixo": "^1.1.0",
+		"prop-types": "^15.6.2",
+		"styled-components": "^4.0.0"
+	}
 }

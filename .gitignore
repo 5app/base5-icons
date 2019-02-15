@@ -1,5 +1,6 @@
 dist
-src/jsx/*
-!src/jsx/index.js
+src/js/*
+!src/js/index.js
+!src/js/iconMap.js
 node_modules
 .DS_Store
