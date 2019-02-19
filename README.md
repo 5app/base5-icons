@@ -2,6 +2,10 @@
 
 5app's SVG icons as React components, powered by styled-components.
 
+## WARNING
+
+This repo is deprecated and has been merged into the [base5-ui](https://github.com/5app/base5-ui) repository.
+
 ## Installation
 
 `npm i --save base5-icons styled-components`
